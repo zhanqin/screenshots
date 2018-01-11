@@ -30,6 +30,8 @@
                                                  CVPixelBufferGetHeight(pixelBuffer))];
     UIImage *frameImg = [UIImage imageWithCGImage:videoImage];
     CGImageRelease(videoImage);
+    //不释放会造成内存泄漏
+    CVBufferRelease(pixelBuffer);
     return frameImg;
 }
 

@@ -28,6 +28,7 @@
 		2D95EC591FFE0D34001BA36A /* button_player_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D95EC551FFE0D34001BA36A /* button_player_play@2x.png */; };
 		2D95EC5A1FFE0D34001BA36A /* button_player_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D95EC561FFE0D34001BA36A /* button_player_play@3x.png */; };
 		2D95EC5B1FFE0D34001BA36A /* button_player_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D95EC571FFE0D34001BA36A /* button_player_pause@3x.png */; };
+		2D99AA6220074FCC0091EEEC /* MMPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D99AA6120074FCC0091EEEC /* MMPushViewController.m */; };
 		2DD8D30C2005FB6E0089292F /* preview_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8D3082005FB6D0089292F /* preview_1.png */; };
 		2DD8D30D2005FB6E0089292F /* preview_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8D3092005FB6D0089292F /* preview_3.png */; };
 		2DD8D30E2005FB6E0089292F /* preview_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8D30A2005FB6D0089292F /* preview_2.png */; };
@@ -87,6 +88,8 @@
 		2D95EC551FFE0D34001BA36A /* button_player_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_player_play@2x.png"; sourceTree = "<group>"; };
 		2D95EC561FFE0D34001BA36A /* button_player_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_player_play@3x.png"; sourceTree = "<group>"; };
 		2D95EC571FFE0D34001BA36A /* button_player_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_player_pause@3x.png"; sourceTree = "<group>"; };
+		2D99AA6020074FCC0091EEEC /* MMPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPushViewController.h; sourceTree = "<group>"; };
+		2D99AA6120074FCC0091EEEC /* MMPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPushViewController.m; sourceTree = "<group>"; };
 		2DD8D3082005FB6D0089292F /* preview_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview_1.png; sourceTree = "<group>"; };
 		2DD8D3092005FB6D0089292F /* preview_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview_3.png; sourceTree = "<group>"; };
 		2DD8D30A2005FB6D0089292F /* preview_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview_2.png; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				2D95EC4D1FFDF28A001BA36A /* MMVideoMP4CaptureViewController.m */,
 				2D95EC4F1FFDF2B0001BA36A /* MMVideom3u8CaptureViewController.h */,
 				2D95EC501FFDF2B0001BA36A /* MMVideom3u8CaptureViewController.m */,
+				2D99AA6020074FCC0091EEEC /* MMPushViewController.h */,
+				2D99AA6120074FCC0091EEEC /* MMPushViewController.m */,
 				2D95EC071FFDB934001BA36A /* Main.storyboard */,
 				2D95EC0A1FFDB934001BA36A /* Assets.xcassets */,
 				2D95EC0C1FFDB934001BA36A /* LaunchScreen.storyboard */,
@@ -367,6 +372,7 @@
 				2D95EC421FFDCF8B001BA36A /* MMScreenshotsManager.m in Sources */,
 				2D95EC3B1FFDC829001BA36A /* MMBaseViewController.m in Sources */,
 				2D95EC4E1FFDF28A001BA36A /* MMVideoMP4CaptureViewController.m in Sources */,
+				2D99AA6220074FCC0091EEEC /* MMPushViewController.m in Sources */,
 				2D95EC4B1FFDEEB6001BA36A /* MMVideoPlayer.m in Sources */,
 				2D95EC3E1FFDC967001BA36A /* MMImageCaptureViewController.m in Sources */,
 				2D95EC111FFDB934001BA36A /* main.m in Sources */,

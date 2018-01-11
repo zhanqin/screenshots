@@ -7,6 +7,7 @@
 //
 
 #import "MMVideom3u8CaptureViewController.h"
+#import "MMPushViewController.h"
 
 @interface MMVideom3u8CaptureViewController ()
 
@@ -30,6 +31,11 @@
 
 -(void)screenshotsClick{
     self.screenshotsImageView.image = [[[MMScreenshotsManager alloc] init] screenshotsm3u8WithCurrentTime:self.playerView.videPlayer.currentTime playerItemVideoOutput:self.playerView.playerOutput];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    MMPushViewController * vc = [[MMPushViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
