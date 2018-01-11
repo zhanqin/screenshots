@@ -5,6 +5,7 @@
 
 ## 注意事项
 1. 播放视频时需要配置info.plist中的NSAppTransportSecurity，否则可能会出现视频无法播放的问题。
+2. 在视频播放页面push到别的页面时需要停止视频的播放，否则视频会一直在播放。
 
 ## 代码介绍
 1. MMScreenshotsManager中封装了三种截屏方法。
